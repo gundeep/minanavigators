@@ -57,7 +57,7 @@ export default function Home() {
             </p>
           </div>
           <p className={styles.start}>
-            Get started by editing
+            Proof of rendering 
             <code className={styles.code}> src/pages/index.js</code> or <code className={styles.code}> src/pages/index.tsx</code>
           </p>
           <div className={styles.grid}>
