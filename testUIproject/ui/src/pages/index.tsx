@@ -58,7 +58,6 @@ export default function Home() {
           </div>
           <p className={styles.start}>
             Proof of rendering 
-            <code className={styles.code}> src/pages/index.js</code> or <code className={styles.code}> src/pages/index.tsx</code>
           </p>
           <div className={styles.grid}>
             <a
@@ -68,7 +67,7 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <h2>
-                <span>DOCS</span>
+                <span>upload rendered image</span>
                 <div>
                   <Image
                     src={arrowRightSmall}
@@ -79,7 +78,7 @@ export default function Home() {
                   />
                 </div>
               </h2>
-              <p>Explore zkApps, how to build one, and in-depth references</p>
+              <p>image from RNDR</p>
             </a>
             <a
               href="https://docs.minaprotocol.com/zkapps/tutorials/hello-world"
@@ -103,26 +102,6 @@ export default function Home() {
             </a>
             <a
               href="https://discord.gg/minaprotocol"
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h2>
-                <span>QUESTIONS</span>
-                <div>
-                  <Image
-                    src={arrowRightSmall}
-                    alt="Mina Logo"
-                    width={16}
-                    height={16}
-                    priority
-                  />
-                </div>
-              </h2>
-              <p>Ask questions on our Discord server</p>
-            </a>
-            <a
-              href="https://docs.minaprotocol.com/zkapps/how-to-deploy-a-zkapp"
               className={styles.card}
               target="_blank"
               rel="noopener noreferrer"
